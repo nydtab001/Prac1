@@ -51,7 +51,7 @@ GPIO.add_event_detect(29, GPIO.RISING, callback=my_callback, bouncetime=100) # d
 GPIO.add_event_detect(31, GPIO.RISING, callback=my_callback2, bouncetime=100) # detect for second button press and call decrementing function if pressed
 # Logic that you write
 def main():
-    print("enter code here")
+    print("")
 # Only run the functions if 
 if __name__ == "__main__":
     # Make sure the GPIO is stopped correctly
